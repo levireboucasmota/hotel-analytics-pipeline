@@ -10,6 +10,7 @@ load_dotenv(ROOT_DIR / ".env")
 
 RAW_CSV = ROOT_DIR / "data" / "raw" / "hotel_bookings.csv"
 LOG_DIR = ROOT_DIR / "logs"
+SQL_DIR = ROOT_DIR / "sql"
 
 
 def get_engine():
